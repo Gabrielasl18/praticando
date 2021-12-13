@@ -8,7 +8,7 @@ int main(){
 	float c;
 	int cont = 0;
 
-	while (i < 100000){
+	while (i < 100){
 		i++;
 		c = i % 3;
 		d = i % 5;
