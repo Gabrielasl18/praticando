@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+
+/*
+LOOP
+LAÇO DE REPETIÇÃO 
+WHILE = ENQUANTO
+EXECUTA COMANDOS ENQUANTO UMA OU VÁRIAS CONDIÇÕES FOREM SATISFEITAS
+QUANDO NAO TENHO MUITA CERTEZA DA CONDIÇÃO DE PARADA, USA-SE ELE
+
+SINTAXE:
+
+WHILE(EXPRESSÃO){
+    COMANDO;
+}
+(NAO ESQUECER DE INCIALIZAR VARIAVEL E CONTROLAR A PARTE DE PARADA PRA NAO ENTRAR EM LOOP INFINITO)
+(O BREAK PODE SER USADO AQUI)
+*/
+
+int main()
+{
+
+    int n=0;
+
+    while(n<10){
+
+     n++;
+     cout << n << "\n";
+
+    }
+ cout << "---programafinalizado---";
+
+return 0;
+}
